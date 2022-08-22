@@ -191,8 +191,6 @@ model = ps.SINDy(
 model.fit(
     x_train,
     t=dt,
-    # x_dot=x_dot_train_measured,
-    ensemble=True,
     quiet=True,
 )
 # x_sim = model.simulate(x0_train, t_sim)
