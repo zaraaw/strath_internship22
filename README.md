@@ -22,8 +22,8 @@
 SINDy-PI with the NASA Bearing dataset is the best fit model. Abrupt SINDy was not able to be run for either dataset, and therefore cannot be compared to the other SINDy variations. The Case Western Data was underfit for all variations of SINDy. The ensemble-SINDy method subsamples the data randomly, so each time you run the code for this, you may get slightly different equations. 
 
 #### Under-fitting and over-fitting
-In pysindy, when defining the regression method, you can define ‘threshold’. This is referred to as the sparsification parameter in the papers. Basically the larger this value, the more sparse the equations you get out are, but if it’s too high the model is underfit. Similarly if this value is too low the model will be over-fit. 
-You also need to consider the candidate libraries, if the library you’ve defined doesn’t have enough terms you’ll get an underfit model, similarly if its too large, it would end up overfit/ busy equations)
+In pysindy, when defining the regression method, you can define ‘threshold’. This is referred to as the sparsification parameter in the papers. The larger this value, the more sparse the discovered equations are, but if it’s too high the model is underfit. Similarly, if this value is too low the model will be over-fit. 
+You also need to consider the candidate libraries, if the library you’ve defined doesn’t have enough terms you’ll get an underfit model. Similarly, if its too large, the model would end up overfit/ the discovered equations would be too busy)
 
 
 #### SINDy
