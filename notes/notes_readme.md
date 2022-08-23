@@ -7,3 +7,4 @@ See 'literature review' for notes on each paper read, as well as links to the pa
 
 The powerpoint 'Symposium Zara' is the presentation given at the internship symposium 
 
+The pdf 'neural networks and SINDy explanation' is handwritten notes on basic neural network structure and the maths of SINDy
